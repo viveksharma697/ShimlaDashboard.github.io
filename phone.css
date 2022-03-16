@@ -1,0 +1,111 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+/* Home section */
+#home{
+    height: 370px; 
+    padding: 3px 28px;
+}
+
+#home::before{
+    height: 480px; 
+}
+
+#home .h-primary{
+    font-size: 30px;
+}
+
+#home p{
+    font-size: 13px;
+}
+
+/* Services section  */
+#services{
+    flex-direction: column;
+}
+
+#services .box { 
+    padding: 14px;
+    margin: 2px 0px; 
+    margin-bottom: 20px;
+}
+
+/* Clients section */
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+
+/* Contact us section */
+#contact-box form{
+    width:80%;
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#cityn{
+    display: flex;
+    flex-direction: column;
+}
+#home .city p{
+    font-size: 18px;
+    display: inline-block;
+}
+
+
+#cityn .events ul {
+    position: relative;
+    top: 35%;
+    transform: translateY(-100%);
+    margin-top: 0;
+    padding: ;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 650px;
+}
+
+#cityn .events {
+    position: relative;
+    width: 100%;
+    height: 0;
+    /* background: rgba(0, 0, 0, 0.5); */
+    float: right;
+    box-sizing: border-box;
+}
+
+#cityn {
+    width: 100%;
+     height: 1300px;
+     background:
+         url('./88713922.webp');
+     background-size: cover;
+     
+ }
+
+ #cityn .leftBox {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
